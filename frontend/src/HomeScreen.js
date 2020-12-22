@@ -1,13 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import React from 'react';
-import LayoutRoute from './LayoutRoute';
-import SignUp from './SignUp';
-import SignIn from './SignIn';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
@@ -25,7 +19,7 @@ function HomeScreen() {
             <Jumbotron style={{backgroundColor:"white"}}>
             <h1>Welcome to Publisher View</h1>
             <p >
-              A complete platform to view all ad technologies, solutions for all industries, and dashboards for ad revenues.
+              A complete platform to view all ad technologies, solutions for all industries, and dashboards for ad revenues
             </p>
             <p>
               <Button ButtonVariant="outline-secondary" variant="secondary">Learn more</Button>
@@ -41,7 +35,7 @@ function HomeScreen() {
               <Card.Text>
                 <Card.Title>Move from data to insights.</Card.Title>
               
-                Get the tools you need to turn raw data into powerful insightssss.
+                Get the tools you need to turn raw data into powerful insights
 
               </Card.Text>
             </Card.Body>
@@ -55,7 +49,7 @@ function HomeScreen() {
               <Card.Text>
               <Card.Title>Solutions for every industry</Card.Title>
               
-              We will help you manage your business and grow revenue.
+              We will help you manage your business and grow revenue
 
               </Card.Text>
             </Card.Body>

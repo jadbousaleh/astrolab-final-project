@@ -1,10 +1,10 @@
-import { colors } from '@material-ui/core';
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import NavBar from './NavBar';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 
 const LayoutRoute = (props) => {
+
     return (
 
         <React.Fragment>
@@ -15,8 +15,8 @@ const LayoutRoute = (props) => {
                 </React.Fragment>
             }>
             <Link to="/" className="btn btn-dark">Home</Link>
-            <Link to="/about" className="btn btn-dark">About</Link>
-            <Link to="#" className="btn btn-dark">Contact</Link>
+            <Link to="/technologies" className="btn btn-dark">Technologies</Link>
+            <Link to="/contact" className="btn btn-dark">Contact</Link>
             </NavBar>
 
             <Route path={props.path} exact={props.exact} component={props.component}
@@ -29,8 +29,8 @@ const LayoutRoute = (props) => {
                 </React.Fragment>
             }>
             <Link to="/" className="btn btn-dark">Home</Link>
-            <Link to="/about" className="btn btn-dark">About</Link>
-            <Link to="#" className="btn btn-dark">Contact</Link>
+            <Link to="/technologies" className="btn btn-dark">Technologies</Link>
+            <Link to="/contact" className="btn btn-dark">Contact</Link>
             </NavBar>
 
 
